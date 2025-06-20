@@ -1,17 +1,10 @@
-<<<<<<< HEAD
-# sign-language-detector-python
-
-Sign language detector with Python, OpenCV and Mediapipe !
-
-[![Watch the video](https://img.youtube.com/vi/MJCSjXepaAM/0.jpg)](https://www.youtube.com/watch?v=MJCSjXepaAM)
-=======
-# ✋ ASL Sign Language Detection using MediaPipe & Random Forest
+✋ ASL Sign Language Detection using MediaPipe & Random Forest
 
 A lightweight, real-time hand sign recognition system that detects American Sign Language (ASL) gestures (A–Z) using [MediaPipe](https://google.github.io/mediapipe/) and a Random Forest classifier. Trained on custom-collected webcam data.
 
 🎥 Demo
 
-> 🔗 [Click here to watch the demo video]([https://www.youtube.com/watch?v=YOUR_VIDEO_LINK](https://youtu.be/CVvE1yCH0TQ))  
+> 🔗 [Click here to watch the demo video](https://youtu.be/CVvE1yCH0TQ)  
 > (Uploaded on YouTube)
 
 🚀 Features
@@ -30,8 +23,3 @@ A lightweight, real-time hand sign recognition system that detects American Sign
 ├── model.p # Trained model + label encoder
 ├── data.pickle # Landmark data and labels
 └── confusion_matrix.png # Evaluation output
-
-
-
-
->>>>>>> dd6438dc0962fe2844ce9b4235e3ef86a296a04d
