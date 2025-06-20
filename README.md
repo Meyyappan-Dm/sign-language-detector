@@ -15,11 +15,18 @@ A lightweight, real-time hand sign recognition system that detects American Sign
 - ✅ Generates confusion matrix to visualize performance
 
 📁 Project Structure
-├── collect_all_alphabets.py # Webcam-based data collection
-├── extract_landmarks.py # Extract hand keypoints using MediaPipe
-├── train_model.py # Train Random Forest model
-├── inference.py # Real-time detection from webcam
-├── data/ # Collected images per class (A–Z)
-├── model.p # Trained model + label encoder
-├── data.pickle # Landmark data and labels
-└── confusion_matrix.png # Evaluation output
+--> collect_all_alphabets.py # Webcam-based data collection
+
+-->extract_landmarks.py # Extract hand keypoints using MediaPipe
+
+-->train_model.py # Train Random Forest model
+
+-->inference.py # Real-time detection from webcam
+
+-->data/ # Collected images per class (A–Z)
+
+-->model.p # Trained model + label encoder
+
+-->data.pickle # Landmark data and labels
+
+-->confusion_matrix.png # Evaluation output
